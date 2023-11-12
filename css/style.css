@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 18px;
+  font-family: Outfit, sans-serif;
+  background-color: var(--main-bg);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Card CSS*/
+
+.card-container {
+  width: 350px;
+  background-color: var(--card-bg);
+  border-radius: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content {
+  padding: 25px;
+}
+
+.eth-level{
+    color: var(--cyan);
+}
+
+.time-left{
+    color: var(--soft-blue);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+.card-img:hover{
+    opacity: 0.5;
+    background-image: url(../images/icon-view.svg);
+}
+
+.card-title{
+    margin: 20px 0;;
+}
+
+.card-description{
+    margin: 20px 0;
+    color: var(--soft-blue);
+}
+
+.card-profile-picture {
+  width: 14%;
+  border: 2px solid var(--white);
+  border-radius: 50px;
+}
+.card-profile-span{
+    color: var(--soft-blue);
+}
+.content-profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line {
+  color: var(--line);
+  border: 1px solid var(--line);
+  width: 300px;
+  margin: 20px 0;
+}
+
+/* Attributtion CSS*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
