@@ -17,8 +17,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solutioo](https://www.frontendmentor.io/solutions/nft-card-component-htmlcss-pTD8fCdUJl)
+- Live Site URL: [Github Live](https://dgarance.github.io/nft-card-component/)
 
 ## My process
 
